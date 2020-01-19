@@ -8,10 +8,10 @@ sf=p+dvl #preço mais alto cota
 n=int(i0/p) #numero de cotas
 pm=p #preço cota variação por média inicial
 r=0.74*n #rendimento do fundo
-c=0 #caixa 
+c=1000.0 #caixa 
 ta=1 #tempo do rendimento em meses
 tt=5*12 #tempo total
-ct=n*p+c
+ct=n*p+c #total bruto
 at=0 #Aporte em t0=0
 tx=10 #fator de variação de pvar
 print ("------------------")
