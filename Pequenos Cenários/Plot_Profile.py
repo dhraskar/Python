@@ -1,9 +1,9 @@
 # coding: utf-8
 
-#Import das bibliotecas e import do arquivo a08.txt para a pasta
+#Import das bibliotecas e import do arquivo Plot_Profile_txt.txt para a pasta
 import numpy as np
 import matplotlib.pyplot as plt
-#get_ipython().magic('cat a08.txt') #-->Disponível somente no ambiente python do IAG
+#get_ipython().magic('Plot_Profile_txt.txt') #-->Disponível somente no ambiente python do IAG
 
 #Pega as linhas e colunas com valores numéricos do arquivo a08.txt
 #  e transforma as linhas em variáveis
